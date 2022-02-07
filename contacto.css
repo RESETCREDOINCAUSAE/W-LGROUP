@@ -1,5 +1,8 @@
 
-  
+  body{
+    color: black !important;
+    }
+    
        figure{
         background-color: black;
     }
@@ -31,14 +34,14 @@ width: 100% !important;
      }
      body{
 
-         color: white;
+         
          font-family: Arial;
      }
      
      h2{
          text-align: center;
-         color: white;
-         font-family: Castellar ;
+         color: black;
+         font-family: Arial;
      }
      a{
        color: white;
