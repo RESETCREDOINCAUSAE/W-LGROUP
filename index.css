@@ -1,0 +1,93 @@
+@media (max-width: 500px) {
+           
+    .imguno, .imgdos, .imgtres, .imgcuatro{
+        width: 100%;
+}
+    }
+
+figure{
+    background-color: black;
+}
+.container-fluid{
+    background-color: black;
+}
+ .contenidi{
+
+padding-left: 0 !important;
+padding-right: 0 !important;
+width: 100% !important;
+ }
+ .contenedorprincipal{
+     height: 1000px;
+     max-height: 1000px;
+     width: 100%;
+ }
+ .footers{
+     position: fixed;
+     bottom: 2%;
+     width: 100%;
+     text-align: center;
+     background-color: black;
+     color: white;
+ }
+ center{
+     background-image: url(https://cdn.pixabay.com/photo/2016/11/29/06/17/audience-1867754_960_720.jpg);
+     width: 100%;
+     text-align: center;
+     height: 600px;
+     image-rendering: optimizeSpeed;
+     border-image-repeat:round
+ }
+ body{
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/29/06/17/audience-1867754_960_720.jpg);
+    background-repeat:round;
+    background-position: 50%,50%;
+     color: white;
+     font-family: Times;
+font-size: 18px;
+image-rendering: optimizeSpeed;
+     border-image-repeat:round;
+ 
+ }
+ 
+ h2,h1{
+     text-align: center;
+     color: white;
+     font-family: Times ;
+ }
+ 
+ #myCarousel{
+     background-color: black;
+     width: 100%;
+height: 500px;
+ }
+ footer {
+text-align: center;
+padding: 3px;
+background-image: linear-gradient(black,gray,black);
+color: white;
+height: 25%;
+}
+.navbar {
+    height: 180px;
+    background-color: black;
+}
+h3{
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+p{
+    color: black !important;
+    font-size: 22px;
+    text-align: justify;
+}
+.tablero{
+    background-color:gray;
+    padding: 10px;
+}
+.whatsapp{
+    position: absolute;
+    right: 10%;
+}
