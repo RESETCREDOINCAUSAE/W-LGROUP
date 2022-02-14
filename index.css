@@ -4,8 +4,19 @@
         width: 100%;
 }
     }
+    @media (max-width: 500px) {
+           
+        .imgdos{
+            width: 90%;
+    }
+        }
 
-
+        @media (max-width: 500px) {
+           
+            #duo, #tres, #quattuor, #quinque{
+                width: 15%;
+        }
+            }
 *{
     text-align: center;
     font-family: 'Akaya Telivigala', cursive !important;
@@ -19,6 +30,7 @@
 }
 .jumbotron{
     background-image:linear-gradient(gray,white);
+    background-color: black !important;
 }
 body{
     padding-left: 1% !important;
@@ -38,9 +50,10 @@ div .mySlides{
     height: 100%;
 }
 .container{
-    background-color: black;
+    background-image: radial-gradient(rgb(231, 164, 20), orangered, rgb(231, 164, 20),black) ;
     max-height: max-content;
     height: 100% !important;
+    width: 100% !important;
 }
 
     .contenedor{
@@ -114,7 +127,7 @@ p{
     font-size:28px;
     font-family:helvetica;
     font-weight:bold;
-    color:#3776c9;
+    color:white;
     text-transform:uppercase;
   }
   .parpadea {
@@ -152,4 +165,32 @@ p{
   button{
       font-size: 70%;
   }
+}
+#uu :hover{
+    background-color: gray;
+    
+    transition: 0.1s;
+}
+#uu :hover strong{
+    
+    color: black;
+    transition: 0.1s;
+}
+#uu :hover {
+    
+    color: black;
+    transition: 0.1s;
+}
+
+a :hover{
+    
+    color: rgb(167, 5, 199) !important;
+}
+          
+
+.imgdos{
+    float: center !important;
+}
+.oye{
+    height: 200px;
 }
