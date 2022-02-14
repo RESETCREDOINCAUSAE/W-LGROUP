@@ -1,93 +1,155 @@
 @media (max-width: 500px) {
            
-    .imguno, .imgdos, .imgtres, .imgcuatro{
+    .imguno{
         width: 100%;
 }
     }
 
-figure{
-    background-color: black;
+
+*{
+    text-align: center;
+    font-family: 'Akaya Telivigala', cursive !important;
+}
+.mySlides{
+    width: 100%;
+    background-color: rgb(85, 44, 5);
+    color:blanchedalmond;
+    position: relative;
+    left: 5.2%;
+}
+.jumbotron{
+    background-image:linear-gradient(gray,white);
+}
+body{
+    padding-left: 1% !important;
+    padding-right: 1% !important;
+    background: gray;
+    background-size: over;
+    background-repeat: no-repeat;
+    
+}
+div .mySlides{
+    width: 90%;
+    height: auto;
 }
 .container-fluid{
-    background-color: black;
+    background-color: gray;
+    width: 100%;
+    height: 100%;
 }
- .contenidi{
+.container{
+    background-color: black;
+    max-height: max-content;
+    height: 100% !important;
+}
 
-padding-left: 0 !important;
-padding-right: 0 !important;
-width: 100% !important;
- }
- .contenedorprincipal{
-     height: 1000px;
-     max-height: 1000px;
-     width: 100%;
- }
- .footers{
-     position: fixed;
-     bottom: 2%;
-     width: 100%;
-     text-align: center;
-     background-color: black;
-     color: white;
- }
- center{
-     background-image: url(https://cdn.pixabay.com/photo/2016/11/29/06/17/audience-1867754_960_720.jpg);
-     width: 100%;
-     text-align: center;
-     height: 600px;
-     image-rendering: optimizeSpeed;
-     border-image-repeat:round
- }
- body{
-    background-image: url(https://cdn.pixabay.com/photo/2016/11/29/06/17/audience-1867754_960_720.jpg);
-    background-repeat:round;
-    background-position: 50%,50%;
-     color: white;
-     font-family: Times;
-font-size: 18px;
-image-rendering: optimizeSpeed;
-     border-image-repeat:round;
- 
- }
- 
- h2,h1{
-     text-align: center;
-     color: white;
-     font-family: Times ;
- }
- 
- #myCarousel{
-     background-color: black;
-     width: 100%;
-height: 500px;
- }
- footer {
-text-align: center;
-padding: 3px;
-background-image: linear-gradient(black,gray,black);
-color: white;
-height: 25%;
-}
-.navbar {
-    height: 180px;
-    background-color: black;
-}
-h3{
-    color: black;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 50px;
-    text-align: center;
-}
+    .contenedor{
+       
+            display: grid;
+           
+            grid-template-columns: 1fr 1fr 1fr 1fr ;
+            grid-template-rows: 4fr  ;
+            grid-column-gap: 8px;
+            grid-row-gap: 10px;
+            grid-template-areas: 
+            " yes1 yes2 yes3 yes4 "
+            ;
+        }
+
+#item-a{
+    grid-area: yes1;
+   
+    color: antiquewhite;
+    }
+    #item-b{
+        grid-area: yes2;
+      
+        color: antiquewhite;
+        }
+        #item-c{
+            grid-area: yes3;
+           
+            color: antiquewhite;
+            }
+            #item-d{
+                grid-area: yes4;
+               
+                color: antiquewhite;
+                }
+                .footer{
+       
+                    display: grid;
+                   
+                    grid-template-columns: 1fr 1fr 1fr ;
+                    grid-template-rows: auto  ;
+                    grid-column-gap: 10px;
+                    grid-row-gap: 10px;
+                    grid-template-areas: 
+                    " tres quattuor quinque  "
+                    ;
+                }
+      
+            
+            
+            #duo{
+                grid-area: duo;
+              
+               
+                }
+                #tres{
+                    grid-area: tres;
+                   
+                    
+                    }
+                    #quattuor{
+                        grid-area: quattuor;
+                       
+                        }
+
+
 p{
-    color: black !important;
-    font-size: 22px;
-    text-align: justify;
+    font-size: 20px;
 }
-.tablero{
-    background-color:gray;
-    padding: 10px;
-}
-.whatsapp{
-    position: absolute;
-    right: 10%;
+.text {
+    font-size:28px;
+    font-family:helvetica;
+    font-weight:bold;
+    color:#3776c9;
+    text-transform:uppercase;
+  }
+  .parpadea {
+    
+    animation-name: parpadeo;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  
+    -webkit-animation-name:parpadeo;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    
+  }
+  
+  @-moz-keyframes parpadeo{  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+  }
+  
+  @-webkit-keyframes parpadeo {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+     100% { opacity: 1.0; }
+  }
+  
+  @keyframes parpadeo {  
+    0% { opacity: 1.0; }
+     50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+  }
+  @media (max-width: 500px){
+  button{
+      font-size: 70%;
+  }
 }
